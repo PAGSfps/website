@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Design Page</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #333;
+            color: rgb(255, 255, 255);
+            padding: 120px 0;
+            text-align: center;
+        }
+
+        /* Navigation Styling */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #444;
+            padding: 15px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #f4f4f4;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 60px 20px;
+            margin-top: 60px;
+        }
+
+        h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Gallery Styling */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Contact Form Styling */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            max-width: 600px;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 12px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #444;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to our IAM worldwide Amazing Barley Online Store</h1>
+       
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <center>
+        <p>IAM Worldwide is a company committed to upgrading the quality of life – it was designed for dedicated, honest, hardworking, and self-motivated people who want to build their own businesses as Independent Distributors across the globe. Our portfolio offers a diverse and comprehensive range of marketing solutions, specialty products, and services aimed to drive individuals and families to financial excellence.
+
+            The company was founded by Mr. Allen Marvin Yu Eder and Ms. Aika Lorraine Uy who are both seasoned network marketing professionals and entrepreneurs. With an impeccable track record for being consistent top earners from several other marketing companies, they have both built unrelenting multi-million sales teams worldwide. Through their passion for helping individuals achieve financial freedom and personal greatness, they have helped create more than a hundred millionaires over the years. The IAMWORLDWIDE leadership team has over 20 combined years of expertise in the relationship marketing industry, that they have only implemented the systems and practices into IAMWORLDWIDE that are proven to work best.</p></center>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="download.jfif" alt="Placeholder Image 1">
+            <img src="download (1).jfif" alt="Placeholder Image 2">
+            <img src="download (2).jfif" alt="Placeholder Image 3">
+            <img src="download (3).jfif" alt="Placeholder Image 4">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <center>
+        <p>If you have any questions or would like to get in touch with us, feel free to send a message using the form below:</p></center>
+        <div class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Design Page | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
